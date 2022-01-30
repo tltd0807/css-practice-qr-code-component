@@ -1,5 +1,18 @@
-body{
-    font-size: 15px;
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%);
+body {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 1rem;
+}
+.qr_code {
+  margin: 20px;
 }
